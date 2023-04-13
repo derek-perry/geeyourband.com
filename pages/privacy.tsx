@@ -6,7 +6,7 @@ import LinkExternal from "../components/Links/LinkExternal"
 
 const privacyPage: NextPage = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center py-2">
+    <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center py-2">
       <SiteHead title="GYBST Privacy Policy" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970’s showcase & dance band playing super hits of the 70’s! GYBST respects your privacy and your personal data." url="privacy" />
 
       <main className="w-full flex flex-1 flex-col items-center justify-center px-20 text-center">
@@ -53,7 +53,7 @@ const privacyPage: NextPage = () => {
 
               <h2 id="changes" className="text-4xl font-bold">Privacy Policy Changes</h2>
               <p className="my-4 text-2xl">Although most changes are likely to be minor, GYBST may change this Privacy Policy from time to time, and in GYBST’s sole discretion. GYBST encourages users to frequently check this page for any changes to this Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.</p>
-              <p className="my-4 text-2xl"><i>This Privacy Policy was last updated on April 9, 2023.</i></p>
+              <p className="my-4 text-2xl"><i>This Privacy Policy was last updated on April 12, 2023.</i></p>
 
               <h2 id="contact-info" className="text-4xl font-bold">Contact Information</h2>
               <p className="my-4 text-2xl">If you have any questions about this Privacy Policy, please contact Bobby Dingo via email at <LinkExternal href="mailto:bobbydingo@yahoo.com" title="Email Bobby Dingo at bobbydingo@yahoo.com">bobbydingo@yahoo.com</LinkExternal></p>

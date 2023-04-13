@@ -15,7 +15,7 @@ const LinkInternal: FC<ILinkInternalProps> = ({
   className
 }): JSX.Element => {
   return (
-    <Link href={href} title={title} className={"underline hover:text-green-600 " + className}>
+    <Link href={href} title={title} className={"underline hover:text-sky-600 " + className}>
         {children}
     </Link>
   )
