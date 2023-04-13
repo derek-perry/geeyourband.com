@@ -15,14 +15,12 @@ const SiteHead: FC<ISiteHeadProps> = ({
 }): JSX.Element => {
   return (
     <Head>
-      <title>{title}</title>
-      <title>{description}</title>
-
       <meta charSet="UTF-8" />
       <meta name="robots" content="max-snippet:-1,max-image-preview:standard,max-video-preview:-1" />
 
       <meta property="og:locale" content="en_US" />
       <meta property="og:type" content="website" />
+      <title>{title}</title>
       <meta property="og:title" key="title" content={title} />
       <meta property="og:description" content={description} />
       <meta name="description" content={description} />
