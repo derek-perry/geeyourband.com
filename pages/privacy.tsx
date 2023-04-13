@@ -1,21 +1,20 @@
 import type { NextPage } from 'next'
 import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
-import LinkInternal from "../components/Links/LinkInternal"
 import LinkExternal from "../components/Links/LinkExternal"
+import LinkInternal from "../components/Links/LinkInternal"
+import LinkInternalButton from "../components/Links/LinkInternalButton"
 
 const privacyPage: NextPage = () => {
   return (
-    <div className="py-2 min-h-screen flex flex-col items-center bg-black text-white justify-center">
+    <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center">
       <SiteHead title="GYBST Privacy Policy" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970’s showcase & dance band playing super hits of the 70’s! GYBST respects your privacy and your personal data." url="privacy" />
 
       <main className="py-9 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="policy">
           <section id="contentheader" className="py-9">
             <h1 className="text-6xl font-bold">Privacy Policy</h1>
-            <p className="my-4 text-2xl">
-              <LinkInternal href="" title="Return to Index Page">Go Home</LinkInternal>
-            </p>
+            <div className="flex flex-row flex-wrap"><LinkInternalButton href="" title="Return to Index Page" size="[200px]">Go Home</LinkInternalButton></div>
           </section>
 
           <section id="privacypolicy" className="max-w-[800px] text-left">
@@ -51,7 +50,7 @@ const privacyPage: NextPage = () => {
 
               <h2 id="changes" className="text-4xl font-bold">Privacy Policy Changes</h2>
               <p className="my-4 text-2xl">Although most changes are likely to be minor, GYBST may change this Privacy Policy from time to time, and in GYBST’s sole discretion. GYBST encourages users to frequently check this page for any changes to this Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.</p>
-              <p className="my-4 text-2xl"><i>This Privacy Policy was last updated on April 12, 2023.</i></p>
+              <p className="my-4 text-2xl"><i>This Privacy Policy was last updated on April 13, 2023.</i></p>
 
               <h2 id="contact-info" className="text-4xl font-bold">Contact Information</h2>
               <p className="my-4 text-2xl">If you have any questions about this Privacy Policy, please contact Bobby Dingo via email at <LinkExternal className="break-all" href="mailto:bobbydingo@yahoo.com" title="Email Bobby Dingo at bobbydingo@yahoo.com">bobbydingo@yahoo.com</LinkExternal></p>

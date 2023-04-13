@@ -1,11 +1,11 @@
 import type { NextPage } from 'next'
 import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
-import LinkInternal from "../components/Links/LinkInternal"
+import LinkInternalButton from "../components/Links/LinkInternalButton"
 
 const error500Page: NextPage = () => {
   return (
-    <div className="py-2 min-h-screen flex flex-col items-center bg-black text-white justify-center">
+    <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center">
       <SiteHead title="Error 500: Internal Server Error" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970’s showcase & dance band playing super hits of the 70’s!" url="500" />
 
       <main className="py-9 px-9 max-w-[1250px] w-full flex flex-1 flex-col items-center justify-center text-center">
@@ -16,7 +16,7 @@ const error500Page: NextPage = () => {
         </p>
 
         <p className="my-4 text-2xl">
-          <LinkInternal href="" title="Return to Index Page">Go Home</LinkInternal>
+          <div className="flex flex-row flex-wrap"><LinkInternalButton href="" title="Return to Index Page" size="[200px]">Go Home</LinkInternalButton></div>
         </p>
       </main>
 
