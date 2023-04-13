@@ -16,13 +16,13 @@ const privacyPage: NextPage = () => {
                 <h1 className="text-6xl font-bold">Privacy Policy</h1>
             </div>
             <p className="my-4 text-2xl">
-              <LinkInternal href="/" title="Return to Index Page">Go Home</LinkInternal>
+              <LinkInternal href="" title="Return to Index Page">Go Home</LinkInternal>
             </p>
           </section>
 
           <section id="privacypolicy" className="max-w-[800px] text-left">
               <h2 id="overview" className="text-4xl font-bold">Privacy Policy Overview</h2>
-              <p className="my-4 text-2xl">It is GYBST’s policy to respect your privacy regarding any information GYBST may collect while operating the website, GYBST. This Privacy Policy applies to <LinkInternal href="/" title="GeeYourBand.com">GeeYourBand.com</LinkInternal> (hereinafter, “the website”, “Gee, Your Band Smells Terrific's website”, “GYBST's website”, “Gee, Your Band Smells Terrific”, or “GYBST”). GYBST respects your privacy and is committed to protecting personally identifiable information you may provide GYBST through the website. GYBST has adopted this privacy policy (“Privacy Policy”) to explain what information may be collected from the website, how GYBST uses this information, and under what circumstances GYBST may disclose the information to third parties. This Privacy Policy applies only to information GYBST collects through the website and does not apply to the collection of information from other sources.</p>
+              <p className="my-4 text-2xl">It is GYBST’s policy to respect your privacy regarding any information GYBST may collect while operating the website, GYBST. This Privacy Policy applies to <LinkInternal href="" title="GeeYourBand.com">GeeYourBand.com</LinkInternal> (hereinafter, “the website”, “Gee, Your Band Smells Terrific's website”, “GYBST's website”, “Gee, Your Band Smells Terrific”, or “GYBST”). GYBST respects your privacy and is committed to protecting personally identifiable information you may provide GYBST through the website. GYBST has adopted this privacy policy (“Privacy Policy”) to explain what information may be collected from the website, how GYBST uses this information, and under what circumstances GYBST may disclose the information to third parties. This Privacy Policy applies only to information GYBST collects through the website and does not apply to the collection of information from other sources.</p>
               <p className="my-4 text-2xl">This Privacy Policy sets forth the general rules and policies governing your experience with the website. Depending on your activities when visiting the website, you may be required to agree to additional terms and conditions.</p>
 
               <h2 id="user-data" className="text-4xl font-bold">Website User Data</h2>

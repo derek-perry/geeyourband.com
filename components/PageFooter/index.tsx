@@ -9,7 +9,7 @@ const PageFooter = (): JSX.Element => {
         <div
           className="flex items-center justify-center mt-[40px] mb-[20px]"
         >
-          <p className="pr-2">© {currentYear} </p><LinkInternal href="/" title="GYBST" className="no-underline"><p>GYBST</p></LinkInternal><p className="pr-2 pl-2"> - </p><LinkInternal href="/privacy" title="GYBST Privacy Policy" className="no-underline"><p>Privacy Policy</p></LinkInternal>
+          <p className="pr-2">© {currentYear} </p><LinkInternal href="" title="GYBST" className="no-underline"><p>GYBST</p></LinkInternal><p className="pr-2 pl-2"> - </p><LinkInternal href="privacy" title="GYBST Privacy Policy" className="no-underline"><p>Privacy Policy</p></LinkInternal>
         </div>
       </footer>
   )

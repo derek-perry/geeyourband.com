@@ -1,6 +1,5 @@
 import { FC } from 'react'
 import Head from 'next/head'
-import Script from 'next/script'
 
 interface ISiteHeadProps {
   title: string;
@@ -40,9 +39,7 @@ const SiteHead: FC<ISiteHeadProps> = ({
       <meta name="twitter:image:alt" content="Banner for GeeYourBand.com" />
       <link rel="canonical" href={process.env.NEXT_PUBLIC_SITE_URL || 'https://geeyourband.com'} />
 
-      <meta name="theme-color" content="#000000" />
       <link rel="icon" href={process.env.NEXT_PUBLIC_SITE_URL + '/favicon.ico' || 'https://geeyourband.com/favicon.ico'} />
-
       <link rel="apple-touch-icon" sizes="180x180" href={process.env.NEXT_PUBLIC_SITE_URL + '/apple-touch-icon.png' || 'https://geeyourband.com/apple-touch-icon.png'} />
       <link rel="icon" type="image/png" sizes="32x32" href={process.env.NEXT_PUBLIC_SITE_URL + '/favicon-32x32.png' || 'https://geeyourband.com/favicon-32x32.png'} />
       <link rel="icon" type="image/png" sizes="16x16" href={process.env.NEXT_PUBLIC_SITE_URL + '/favicon-16x16.png' || 'https://geeyourband.com/favicon-16x16.png'} />
