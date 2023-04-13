@@ -14,7 +14,7 @@ const homePage: NextPage = () => {
       <main className="pt-9 pb-20 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
       <div className="w-full flex flex-row flex-wrap gap-9 items-center justify-center text-center">
         <Image src={process.env.NEXT_PUBLIC_SITE_URL + '/logo.svg' || './logo.svg'} alt="GYBST Logo" width={420} height={420} />
-        <div className="mb-20 xl:mb-0 lg:mb-0 md:mb-0 flex flex-row xl:flex-col lg:flex-col md:flex-col flex-wrap gap-10 items-center justify-center text-center">
+        <div className="mb-20 sm:mb-20 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 flex flex-row sm:flex-row md:flex-col lg:flex-col xl:flex-col 2xl:flex-col flex-wrap gap-10 items-center justify-center text-center">
           <LinkExternalButton href="https://facebook.com/geeyourbandsmellsterrific" title="GYBST Facebook" size="[200px]">Facebook</LinkExternalButton>
           <LinkExternalButton href="https://instagram.com/geeyourbandsmellsterrific" title="GYBST Instagram" size="[200px]">Instagram</LinkExternalButton>
         </div>
@@ -33,8 +33,10 @@ const homePage: NextPage = () => {
 
       <h2 id="calendar" className="mt-20 text-4xl font-bold text-rose-400">Stay Up-To-Date</h2>
       <p className="my-4 text-2xl">Find upcoming shows on our Facebook:</p>
-      <div className="max-w-[1100px] w-full flex flex-row flex-wrap items-center justify-center text-center">
-        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2Fgeeyourbandsmellsterrific&tabs=timeline&width=500&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="700" className="h-[700px] w-[500px] border-none overflow-hidden" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      <div className="fbParent flex flex-row flex-wrap items-center justify-center text-center">
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2Fgeeyourbandsmellsterrific&tabs=timeline&width=200&height=700&small_header=false&hide_cover=false&show_facepile=true&appId" className="fb200 h-[700px] w-[200px] border-none overflow-scroll" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2Fgeeyourbandsmellsterrific&tabs=timeline&width=300&height=700&small_header=false&hide_cover=false&show_facepile=true&appId" className="fb300 h-[700px] w-[300px] border-none overflow-scroll" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2Fgeeyourbandsmellsterrific&tabs=timeline&width=500&height=700&small_header=false&hide_cover=false&show_facepile=true&appId" className="fb500 h-[700px] w-[500px] border-none overflow-scroll" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
       </div>
 
       <h2 id="video" className="mt-20 text-4xl font-bold text-yellow-400">Band Video</h2>

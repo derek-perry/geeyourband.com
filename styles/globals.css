@@ -11,6 +11,43 @@ body {
   scroll-behavior: smooth;
 }
 
+.fbParent {
+  display:block;
+}
+.fb200 {
+  display:none;
+}
+.fb300 {
+  display:none;
+}
+.fb500 {
+  display:block;
+}
+
+@media (max-width: 572px) {
+  .fb200 {
+    display:none;
+  }
+  .fb300 {
+    display:block;
+  }
+  .fb500 {
+    display:none;
+  }
+}
+
+@media (max-width: 328px) {
+  .fb200 {
+    display:block;
+  }
+  .fb300 {
+    display:none;
+  }
+  .fb500 {
+    display:none;
+  }
+}
+
 .videoResponsive {
   position: relative;
   overflow: hidden;
