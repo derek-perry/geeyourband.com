@@ -10,7 +10,7 @@ const privacyPage: NextPage = () => {
     <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center">
       <SiteHead title="GYBST Privacy Policy" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970’s showcase & dance band playing super hits of the 70’s! GYBST respects your privacy and your personal data." url="privacy" />
 
-      <main className="py-9 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
+      <main className="pt-9 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="policy">
           <section id="contentheader" className="py-9">
             <h1 className="text-6xl font-bold">Privacy Policy</h1>

@@ -8,7 +8,7 @@ const error404Page: NextPage = () => {
     <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center">
       <SiteHead title="Error 404: Content Not Found" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970’s showcase & dance band playing super hits of the 70’s!" url="404" />
 
-      <main className="py-9 px-9 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center text-center">
+      <main className="pt-9 px-9 max-w-[1000px] w-full flex flex-1 flex-col items-center justify-center text-center">
         <h1 className="text-6xl font-bold text-red-600">Error 404: Content Not Found</h1>
 
         <p className="my-4 text-2xl">
