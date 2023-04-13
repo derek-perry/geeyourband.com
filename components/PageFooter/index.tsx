@@ -5,12 +5,8 @@ const PageFooter = (): JSX.Element => {
   let currentYear: number=new Date().getFullYear();
 
   return (
-      <footer className="mt-9 w-full flex flex-col items-center justify-center border-t">
-        <div
-          className="flex items-center justify-center mt-[40px] mb-[20px]"
-        >
+      <footer className="mt-9 pt-[40px] pb-[35px] w-full flex flex-row flex-wrap items-center justify-center border-t-[20px] border-fuchsia-800">
           <p className="pr-2">© {currentYear} </p><LinkInternal href="" title="GYBST" className="no-underline"><p>GYBST</p></LinkInternal><p className="pr-2 pl-2"> - </p><LinkInternal href="privacy" title="GYBST Privacy Policy" className="no-underline"><p>Privacy Policy</p></LinkInternal>
-        </div>
       </footer>
   )
 }

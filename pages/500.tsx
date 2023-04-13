@@ -5,13 +5,11 @@ import LinkInternal from "../components/Links/LinkInternal"
 
 const error500Page: NextPage = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center py-2">
+    <div className="py-2 min-h-screen flex flex-col items-center bg-black text-white justify-center">
       <SiteHead title="Error 500: Internal Server Error" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970’s showcase & dance band playing super hits of the 70’s!" url="500" />
 
-      <main className="w-full flex flex-1 flex-col items-center justify-center px-20 text-center">
-        <div className="pt-9 w-full flex flex-row items-center justify-center text-center">
-            <h1 className="text-6xl font-bold text-red-600">Error 500: Internal Server Error</h1>
-        </div>
+      <main className="py-9 px-9 max-w-[1250px] w-full flex flex-1 flex-col items-center justify-center text-center">
+        <h1 className="text-6xl font-bold text-red-600">Error 500: Internal Server Error</h1>
 
         <p className="my-4 text-2xl">
           The server encountered an internal error or misconfiguration and was unable to complete your request.

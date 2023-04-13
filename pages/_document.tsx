@@ -6,6 +6,16 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <Script id="plausible-analytics" defer strategy="beforeInteractive" data-domain="geeyourband.com" src="https://plausible.io/js/script.js"></Script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin={'anonymous'}
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700;800&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <body>
         <Main />

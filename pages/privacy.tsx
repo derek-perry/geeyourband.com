@@ -6,15 +6,13 @@ import LinkExternal from "../components/Links/LinkExternal"
 
 const privacyPage: NextPage = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center py-2">
+    <div className="py-2 min-h-screen flex flex-col items-center bg-black text-white justify-center">
       <SiteHead title="GYBST Privacy Policy" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970’s showcase & dance band playing super hits of the 70’s! GYBST respects your privacy and your personal data." url="privacy" />
 
-      <main className="w-full flex flex-1 flex-col items-center justify-center px-20 text-center">
+      <main className="py-9 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="policy">
           <section id="contentheader" className="py-9">
-            <div className="w-full flex flex-row items-center justify-center text-center">
-                <h1 className="text-6xl font-bold">Privacy Policy</h1>
-            </div>
+            <h1 className="text-6xl font-bold">Privacy Policy</h1>
             <p className="my-4 text-2xl">
               <LinkInternal href="" title="Return to Index Page">Go Home</LinkInternal>
             </p>
@@ -56,7 +54,7 @@ const privacyPage: NextPage = () => {
               <p className="my-4 text-2xl"><i>This Privacy Policy was last updated on April 12, 2023.</i></p>
 
               <h2 id="contact-info" className="text-4xl font-bold">Contact Information</h2>
-              <p className="my-4 text-2xl">If you have any questions about this Privacy Policy, please contact Bobby Dingo via email at <LinkExternal href="mailto:bobbydingo@yahoo.com" title="Email Bobby Dingo at bobbydingo@yahoo.com">bobbydingo@yahoo.com</LinkExternal></p>
+              <p className="my-4 text-2xl">If you have any questions about this Privacy Policy, please contact Bobby Dingo via email at <LinkExternal className="break-all" href="mailto:bobbydingo@yahoo.com" title="Email Bobby Dingo at bobbydingo@yahoo.com">bobbydingo@yahoo.com</LinkExternal></p>
           </section>
         </article>
       </main>
