@@ -6,7 +6,13 @@ const PageFooter = (): JSX.Element => {
 
   return (
       <footer className="mt-9 pt-[40px] pb-[35px] w-full flex flex-row flex-wrap items-center justify-center border-t-[20px] border-fuchsia-800">
-          <p className="pr-2">© {currentYear} </p><LinkInternal href="" title="GYBST" className="no-underline"><p>GYBST</p></LinkInternal><p className="pr-2 pl-2"> - </p><LinkInternal href="privacy" title="GYBST Privacy Policy" className="no-underline"><p>Privacy Policy</p></LinkInternal>
+          <LinkInternal href="" title="GYBST" className="no-underline">
+            <p>© {currentYear} GYBST</p>
+          </LinkInternal>
+          <p className="pr-2 pl-2"> - </p>
+          <LinkInternal href="privacy" title="GYBST Privacy Policy" className="no-underline">
+            <p>Privacy Policy</p>
+          </LinkInternal>
       </footer>
   )
 }
