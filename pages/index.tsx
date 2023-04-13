@@ -34,7 +34,7 @@ const homePage: NextPage = () => {
       <h2 id="calendar" className="mt-20 text-4xl font-bold text-rose-400">Stay Up-To-Date</h2>
       <p className="my-4 text-2xl">Find upcoming shows on our Facebook:</p>
       <div className="max-w-[1100px] w-full flex flex-row flex-wrap items-center justify-center text-center">
-      <iframe src="https://facebook.com/plugins/page.php?href=https%3A%2F%2facebook.com%2Fgeeyourbandsmellsterrific&tabs=timeline&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" className="h-[700px] w-[700px] border-none overflow-hidden" scrolling="no" frameborder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Ffacebook.com%2Fgeeyourbandsmellsterrific&tabs=timeline&width=500&height=700&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="700" className="h-[700px] w-[500px] border-none overflow-hidden" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
       </div>
 
       <h2 id="video" className="mt-20 text-4xl font-bold text-yellow-400">Band Video</h2>
