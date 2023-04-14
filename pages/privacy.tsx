@@ -8,7 +8,7 @@ import LinkInternalButton from "../components/Links/LinkInternalButton"
 const privacyPage: NextPage = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center">
-      <SiteHead title="GYBST Privacy Policy" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970’s showcase & dance band playing super hits of the 70’s! GYBST respects your privacy and your personal data." url="privacy" />
+      <SiteHead title="GYBST Privacy Policy" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970s showcase & dance band playing super hits of the 70s!" url="privacy" />
 
       <main className="pt-9 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
         <article id="policy">
