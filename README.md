@@ -1,5 +1,5 @@
 # Gee, Your Band Smells Terrific _(GYBST)_
-### Cincinnati, Ohio’s premier 1970’s showcase & dance band playing super hits of the 70’s!
+### Cincinnati, Ohio’s premier 1970s showcase & dance band playing super hits of the 70s!
 ### _(This repository contains the website for GYBST.)_
 _[Website; NEXT.js; Tailwind CSS]_
 
