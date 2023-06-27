@@ -15,9 +15,7 @@ const error404Page: NextPage = () => {
           The page/content you are looking for has moved, is no longer available, has been archived, or was not valid.
         </p>
 
-        <p className="my-4 text-2xl">
-          <LinkInternalButton href="" title="Return to Index Page" size="[200px]">Go Home</LinkInternalButton>
-        </p>
+        <LinkInternalButton href="" title="Return to Index Page">Go Home</LinkInternalButton>
       </main>
 
       <PageFooter />

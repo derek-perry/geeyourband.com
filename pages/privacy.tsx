@@ -14,7 +14,7 @@ const privacyPage: NextPage = () => {
         <article id="policy">
           <section id="contentheader" className="py-9">
             <h1 className="text-6xl font-bold">Privacy Policy</h1>
-            <div className="flex flex-row flex-wrap"><LinkInternalButton href="" title="Return to Index Page" size="[200px]">Go Home</LinkInternalButton></div>
+            <div className="flex flex-row flex-wrap"><LinkInternalButton href="" title="Return to Index Page">Go Home</LinkInternalButton></div>
           </section>
 
           <section id="privacypolicy" className="max-w-[800px] text-left">

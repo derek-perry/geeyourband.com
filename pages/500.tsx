@@ -15,9 +15,7 @@ const error500Page: NextPage = () => {
           The server encountered an internal error or misconfiguration and was unable to complete your request.
         </p>
 
-        <p className="my-4 text-2xl">
-          <div className="flex flex-row flex-wrap"><LinkInternalButton href="" title="Return to Index Page" size="[200px]">Go Home</LinkInternalButton></div>
-        </p>
+        <LinkInternalButton href="" title="Return to Index Page">Go Home</LinkInternalButton>
       </main>
 
       <PageFooter />

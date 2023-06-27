@@ -5,6 +5,7 @@ import LinkExternal from "../components/Links/LinkExternal"
 import LinkExternalButton from "../components/Links/LinkExternalButton"
 import YouTubeEmbed from "../components/YouTubeEmbed"
 import Image from 'next/image'
+const SiteURL = process.env.NEXT_PUBLIC_SITE_URL || "."
 
 const homePage: NextPage = () => {
   return (
@@ -13,10 +14,10 @@ const homePage: NextPage = () => {
 
       <main className="pt-9 pb-20 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
       <div className="w-full flex flex-row flex-wrap gap-9 items-center justify-center text-center">
-        <Image src={process.env.NEXT_PUBLIC_SITE_URL + '/logo.svg' || './logo.svg'} alt="GYBST Logo" width={420} height={420} />
+        <Image src={SiteURL + '/logo.svg'} alt="GYBST Logo" width={420} height={420} />
         <div className="mb-20 sm:mb-20 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 flex flex-row sm:flex-row md:flex-col lg:flex-col xl:flex-col 2xl:flex-col flex-wrap gap-10 items-center justify-center text-center">
-          <LinkExternalButton href="https://facebook.com/geeyourbandsmellsterrific" title="GYBST Facebook" size="[200px]">Facebook</LinkExternalButton>
-          <LinkExternalButton href="https://instagram.com/geeyourbandsmellsterrific" title="GYBST Instagram" size="[200px]">Instagram</LinkExternalButton>
+          <LinkExternalButton href="https://facebook.com/geeyourbandsmellsterrific" title="GYBST Facebook">Facebook</LinkExternalButton>
+          <LinkExternalButton href="https://instagram.com/geeyourbandsmellsterrific" title="GYBST Instagram">Instagram</LinkExternalButton>
         </div>
       </div>
 
