@@ -7,14 +7,14 @@ _[Website; NEXT.js; Tailwind CSS]_
 
 ### Game Links
 - **Band Website:** [GeeYourBand.com](https://GeeYourBand.com "Visit the band website for Gee, Your Band Smells Terrific (GYBST) at GeeYourBand.com")
-- **Band Website GitHub:** [github.com/derek-perry/GYBST](https://github.com/derek-perry/GYBST "Visit the GitHub for GeeYourBand.com at github.com/derek-perry/GYBST")
+- **Band Website GitHub:** [github.com/derek-perry/geeyourband.com](https://github.com/derek-perry/geeyourband.com "Visit the GitHub for GeeYourBand.com at github.com/derek-perry/geeyourband.com")
 
 ---
 
 ### Website License Information
 **Copyright 2023 Gee, Your Band Smells Terrific _(GYBST)_ TM**
 **Some rights reserved.**
-Use of [the code for GYBST's website](https://github.com/derek-perry/GYBST "Visit the GitHub for GeeYourBand.com at github.com/derek-perry/GYBST") is licensed under the MIT License (see below).
+Use of [the code for GYBST's website](https://github.com/derek-perry/geeyourband.com "Visit the GitHub for GeeYourBand.com at github.com/derek-perry/geeyourband.com") is licensed under the MIT License (see below).
 
 **Font Used:**
 - [Fredoka One](https://github.com/hafontia-zz/Fredoka-One "View the Fredoka One font on GitHub") by [Milena Brandão](https://www.milenabdesign.com/portfolio/fredoka-fonts) (Copyright 2015-2022 Milena Brandão) (SIL Open Font License 1.1)
