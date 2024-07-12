@@ -29,7 +29,7 @@ const homePage: NextPage = () => {
       <h2 id="contact" className="mt-20 text-4xl font-bold text-lime-400">Book Us For Your Event!</h2>
       <p className="mt-4 text-2xl">Wanna make sure your venue, event, concert, private party, company party, wedding, bar mitzvah, festival, fish-bowl cul-de-sac swap, etc. is partying like it’s 1979?
       </p>
-      <p className="mt-4 text-2xl"> Email Bobby Dingo at <LinkExternal className="break-all" href="mailto:bobbydingo@yahoo.com" title="Email Bobby Dingo at bobbydingo@yahoo.com">bobbydingo@yahoo.com</LinkExternal>, or start dialing <LinkExternal href="tel:513-476-2481" title="Call Bobby Dingo at 513-476-2481">513-476-2481</LinkExternal> with your avocado wall mount rotary phone with a super long, coiled extension cord.
+      <p className="mt-4 text-2xl"> Email Allison Wonderland at <LinkExternal className="break-all" href="mailto:allisonwonderlandgybst@gmail.com" title="Email Allison Wonderland at AllisonWonderlandGYBST@gmail.com">AllisonWonderlandGYBST@gmail.com</LinkExternal>, or start dialing <LinkExternal href="tel:513-317-3208" title="Call Allison Wonderland at 513-317-3208">513-317-3208</LinkExternal> with your avocado wall mount rotary phone with a super long, coiled extension cord.
       </p>
 
       <h2 id="calendar" className="mt-20 text-4xl font-bold text-rose-400">Stay Up-To-Date</h2>
