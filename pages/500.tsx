@@ -3,7 +3,7 @@ import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
 import LinkInternalButton from "../components/Links/LinkInternalButton"
 
-const error500Page: NextPage = () => {
+const Error500Page: NextPage = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center">
       <SiteHead title="Error 500: Internal Server Error" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970s showcase & dance band playing super hits of the 70s!" url="500" />
@@ -23,4 +23,4 @@ const error500Page: NextPage = () => {
   )
 }
 
-export default error500Page
+export default Error500Page

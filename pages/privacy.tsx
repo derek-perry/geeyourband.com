@@ -5,7 +5,7 @@ import LinkExternal from "../components/Links/LinkExternal"
 import LinkInternal from "../components/Links/LinkInternal"
 import LinkInternalButton from "../components/Links/LinkInternalButton"
 
-const privacyPage: NextPage = () => {
+const PrivacyPage: NextPage = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center">
       <SiteHead title="GYBST Privacy Policy" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970s showcase & dance band playing super hits of the 70s!" url="privacy" />
@@ -63,4 +63,4 @@ const privacyPage: NextPage = () => {
   )
 }
 
-export default privacyPage
+export default PrivacyPage

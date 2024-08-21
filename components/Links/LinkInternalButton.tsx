@@ -16,7 +16,7 @@ const LinkInternalButton: FC<ILinkInternalButtonProps> = ({
   className
 }): JSX.Element => {
   return (
-    <Link href={SiteURL + "/" + href} title={title} className={"no-underline rounded bg-fuchsia-800 active:bg-fuchsia-900 focus:bg-fuchsia-900 hover:bg-fuchsia-600 my-4 py-4 px-9 text-center " + className}>
+    <Link href={SiteURL + "/" + href} title={title} className={"no-underline rounded-full bg-fuchsia-800 active:bg-fuchsia-900 focus:bg-fuchsia-900 hover:bg-fuchsia-600 my-4 py-4 px-9 text-center " + className}>
       <p className="flex text-2xl"><strong>{children}</strong></p>
     </Link>
   )

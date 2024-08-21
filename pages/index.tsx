@@ -6,7 +6,7 @@ import LinkExternalButton from "../components/Links/LinkExternalButton"
 import YouTubeEmbed from "../components/YouTubeEmbed"
 import Image from "next/image"
 
-const homePage: NextPage = () => {
+const HomePage: NextPage = () => {
   const SiteURL = process.env.NEXT_PUBLIC_SITE_URL || "."
 
   return (
@@ -14,32 +14,39 @@ const homePage: NextPage = () => {
       <SiteHead title="Gee, Your Band Smells Terrific" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970s showcase & dance band playing super hits of the 70s!" url="" />
 
       <main className="pt-9 pb-20 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
-        <div className="w-full flex flex-row flex-wrap gap-9 items-center justify-center text-center">
+        <div className="w-full flex flex-row max-md:flex-col gap-y-0 gap-x-4 items-center justify-center text-center">
           <Image src={SiteURL + "/logo.svg"} alt="GYBST Logo" width={420} height={420} />
-          <div className="mb-20 sm:mb-20 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 flex flex-row sm:flex-row md:flex-col lg:flex-col xl:flex-col 2xl:flex-col flex-wrap gap-x-10 gap-y-6 items-center justify-center text-center">
-            <LinkExternalButton href="https://facebook.com/geeyourbandsmellsterrific" title="GYBST Facebook">
-              <span className="flex flex-row max-sm:flex-col text-center align-middle items-center justify-center gap-x-4 gap-y-2">
+          <div className="flex flex-col max-md:flex-row max-[335px]:flex-col gap-x-10 max-sm:gap-x-4 gap-y-6 max-[335px]:gap-y-0 items-center justify-center text-center">
+            <LinkExternalButton className="max-[375px]:py-2 max-[375px]:px-6" href="https://facebook.com/geeyourbandsmellsterrific" title="GYBST Facebook">
+              <span className="flex flex-row text-center align-middle items-center justify-center gap-2">
                 <Image src={SiteURL + "/facebook.svg"} alt="Facebook" width={32} height={32} />
-                Facebook
+                <span className="max-[434px]:text-lg">Facebook</span>
+              </span>
+              <span className="max-sm:hidden mt-2 flex text-center align-middle items-center justify-center">
+                <em className="font-normal text-sm">@GeeYourBandSmellsTerrific</em>
               </span>
             </LinkExternalButton>
-            <LinkExternalButton href="https://instagram.com/geeyourbandsmellsterrific" title="GYBST Instagram">
-              <span className="flex flex-row max-sm:flex-col text-center align-middle items-center justify-center gap-x-4 gap-y-2">
+            <LinkExternalButton className="max-[375px]:py-2 max-[375px]:px-6" href="https://instagram.com/geeyourbandsmellsterrific" title="GYBST Instagram">
+              <span className="flex flex-row text-center align-middle items-center justify-center gap-2">
                 <Image src={SiteURL + "/instagram.svg"} alt="Instagram" width={32} height={32} />
-                Instagram
+                <span className="max-[434px]:text-lg">Instagram</span>
+              </span>
+              <span className="max-sm:hidden mt-2 flex text-center align-middle items-center justify-center">
+                <em className="font-normal text-sm">@GeeYourBandSmellsTerrific</em>
               </span>
             </LinkExternalButton>
           </div>
         </div>
 
-        <div className="flex text-center align-middle items-center justify-center">
+        <div className="mt-0 max-md:mt-16 flex text-center align-middle items-center justify-center">
           <h1 className="text-2xl font-bold max-w-[500px]">Cincinnati, Ohio’s premier 1970s showcase & dance band playing super hits of the 70s!</h1>
         </div>
 
-        <LinkExternalButton href="https://venmo.com/code?user_id=4128008445101301726" title="Leave a Tip using Venmo" className="mt-24 !px-16 !py-28 text-2xl">
+        <LinkExternalButton href="https://venmo.com/code?user_id=4128008445101301726" title="Leave a Tip using Venmo" className="mt-24 !px-20 !py-28 max-[434px]:!px-8 max-[434px]:!py-16 text-2xl">
           <span className="flex flex-col text-center align-middle items-center justify-center gap-4">
             Leave a Tip using
             <Image src={SiteURL + "/venmo.svg"} alt="Venmo" width={194} height={35} />
+            <em className="font-normal">@GYBST</em>
           </span>
         </LinkExternalButton>
         <div className="flex text-center align-middle items-center justify-center">
@@ -82,4 +89,4 @@ const homePage: NextPage = () => {
   )
 }
 
-export default homePage
+export default HomePage
