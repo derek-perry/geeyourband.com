@@ -1,34 +1,49 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next"
 import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
 import LinkExternal from "../components/Links/LinkExternal"
 import LinkExternalButton from "../components/Links/LinkExternalButton"
 import YouTubeEmbed from "../components/YouTubeEmbed"
-import Image from 'next/image'
-const SiteURL = process.env.NEXT_PUBLIC_SITE_URL || "."
+import Image from "next/image"
 
 const homePage: NextPage = () => {
+  const SiteURL = process.env.NEXT_PUBLIC_SITE_URL || "."
+
   return (
     <div className="min-h-screen flex flex-col items-center bg-black text-white justify-center">
       <SiteHead title="Gee, Your Band Smells Terrific" description="Gee, Your Band Smells Terrific is Cincinnati, Ohio’s premier 1970s showcase & dance band playing super hits of the 70s!" url="" />
 
       <main className="pt-9 pb-20 px-9 max-w-[1100px] w-full flex flex-1 flex-col items-center justify-center">
         <div className="w-full flex flex-row flex-wrap gap-9 items-center justify-center text-center">
-          <Image src={SiteURL + '/logo.svg'} alt="GYBST Logo" width={420} height={420} />
-          <div className="mb-20 sm:mb-20 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 flex flex-row sm:flex-row md:flex-col lg:flex-col xl:flex-col 2xl:flex-col flex-wrap gap-10 items-center justify-center text-center">
-            <LinkExternalButton href="https://facebook.com/geeyourbandsmellsterrific" title="GYBST Facebook">Facebook</LinkExternalButton>
-            <LinkExternalButton href="https://instagram.com/geeyourbandsmellsterrific" title="GYBST Instagram">Instagram</LinkExternalButton>
+          <Image src={SiteURL + "/logo.svg"} alt="GYBST Logo" width={420} height={420} />
+          <div className="mb-20 sm:mb-20 md:mb-0 lg:mb-0 xl:mb-0 2xl:mb-0 flex flex-row sm:flex-row md:flex-col lg:flex-col xl:flex-col 2xl:flex-col flex-wrap gap-x-10 gap-y-6 items-center justify-center text-center">
+            <LinkExternalButton href="https://facebook.com/geeyourbandsmellsterrific" title="GYBST Facebook">
+              <span className="flex flex-row max-sm:flex-col text-center align-middle items-center justify-center gap-x-4 gap-y-2">
+                <Image src={SiteURL + "/facebook.svg"} alt="Facebook" width={32} height={32} />
+                Facebook
+              </span>
+            </LinkExternalButton>
+            <LinkExternalButton href="https://instagram.com/geeyourbandsmellsterrific" title="GYBST Instagram">
+              <span className="flex flex-row max-sm:flex-col text-center align-middle items-center justify-center gap-x-4 gap-y-2">
+                <Image src={SiteURL + "/instagram.svg"} alt="Instagram" width={32} height={32} />
+                Instagram
+              </span>
+            </LinkExternalButton>
           </div>
         </div>
 
-        <h1 className="text-2xl font-bold max-w-[500px]">Cincinnati, Ohio’s premier 1970s showcase & dance band playing super hits of the 70s!</h1>
+        <div className="flex text-center align-middle items-center justify-center">
+          <h1 className="text-2xl font-bold max-w-[500px]">Cincinnati, Ohio’s premier 1970s showcase & dance band playing super hits of the 70s!</h1>
+        </div>
 
-        <div className='flex flex-col lg:flex-row text-center align-middle items-center justify-center gap-2 mt-20 text-2xl'>
-          <div className='no-underline flex flex-col text-center align-middle items-center justify-center gap-2'>
-            Donate with
-            <Image src={SiteURL + '/venmo.svg'} alt="Venmo Logo" width={194} height={35} />
-          </div>
-          <Image src={SiteURL + '/qr.svg'} alt="GYBST Venmo Donation QR Code" width={350} height={350} />
+        <LinkExternalButton href="https://venmo.com/code?user_id=4128008445101301726" title="Leave a Tip using Venmo" className="mt-24 !px-16 !py-28 text-2xl">
+          <span className="flex flex-col text-center align-middle items-center justify-center gap-4">
+            Leave a Tip using
+            <Image src={SiteURL + "/venmo.svg"} alt="Venmo" width={194} height={35} />
+          </span>
+        </LinkExternalButton>
+        <div className="flex text-center align-middle items-center justify-center">
+          <LinkExternal href="https://venmo.com/code?user_id=4128008445101301726" title="Leave a Tip using Venmo" className="text-xs text-[#333333]"><em>venmo.com/code?user_id=4128008445101301726</em></LinkExternal>
         </div>
 
         <h2 id="skinny" className="mt-24 text-4xl font-bold text-pink-400">The Skinny</h2>
@@ -60,10 +75,10 @@ const homePage: NextPage = () => {
           <p className="my-4 text-2xl"><strong className="text-lime-400">Boomin’</strong> <strong>J.J. Aquarius</strong> <em>(Bass)</em></p>
           <p className="my-4 text-2xl"><strong className="text-amber-500">Copacetic</strong> <strong>Will Power</strong> <em>(Keyboard)</em></p>
         </div>
-      </main>
+      </main >
 
       <PageFooter />
-    </div>
+    </div >
   )
 }
 

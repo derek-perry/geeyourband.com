@@ -1,5 +1,4 @@
 import { FC } from 'react'
-import Link from 'next/link'
 
 interface IYouTubeEmbedProps {
   videoName: string;
@@ -20,7 +19,7 @@ const YouTubeEmbed: FC<IYouTubeEmbedProps> = ({
         title={`${videoName}`}
       />
     </div>
-    )
+  )
 }
 
 export default YouTubeEmbed

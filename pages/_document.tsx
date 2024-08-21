@@ -1,5 +1,5 @@
-import { Html, Head, Main, NextScript } from 'next/document'
-import Script from 'next/script'
+import { Html, Head, Main, NextScript } from "next/document"
+import Script from "next/script"
 
 export default function Document() {
   return (
@@ -10,7 +10,7 @@ export default function Document() {
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
-          crossOrigin={'anonymous'}
+          crossOrigin={"anonymous"}
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700;800&display=swap"

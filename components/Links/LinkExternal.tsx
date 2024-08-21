@@ -1,5 +1,5 @@
-import { FC } from 'react'
-import Link from 'next/link'
+import { FC } from "react"
+import Link from "next/link"
 
 interface ILinkExternalProps {
   href: string;
@@ -16,7 +16,7 @@ const LinkExternal: FC<ILinkExternalProps> = ({
 }): JSX.Element => {
   return (
     <Link href={href} title={title} target="_blank" rel="noopener noreferrer" className={"underline hover:text-sky-600 " + className}>
-        {children}
+      {children}
     </Link>
   )
 }

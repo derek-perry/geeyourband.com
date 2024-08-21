@@ -1,4 +1,4 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next"
 import SiteHead from "../components/SiteHead"
 import PageFooter from "../components/PageFooter"
 import LinkInternalButton from "../components/Links/LinkInternalButton"
