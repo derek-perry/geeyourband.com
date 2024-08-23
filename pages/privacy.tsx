@@ -46,14 +46,14 @@ const PrivacyPage: NextPage = () => {
             <p className="my-4 text-2xl">GYBST may collect statistics about the behavior of users in the website. GYBST may display this information publicly or provide it to others. However, GYBST does not disclose your personally-identifying information.</p>
 
             <h2 id="transfers" className="text-4xl font-bold">Business Transfers</h2>
-            <p className="my-4 text-2xl">If GYBST, or substantially all of his assets, were acquired, or in the unlikely event that GYBST goes out of business or enters bankruptcy, user information would be one of the assets that is transferred or acquired by a third party. You acknowledge that such transfers may occur, and that any acquirer of GYBST may continue to use your personal information as set forth in this policy.</p>
+            <p className="my-4 text-2xl">If GYBST, or substantially all of the GYBST assets, were acquired, or in the unlikely event that GYBST goes out of business or enters bankruptcy, user information would be one of the assets that is transferred or acquired by a third party. You acknowledge that such transfers may occur, and that any acquirer of GYBST may continue to use your personal information as set forth in this policy.</p>
 
             <h2 id="changes" className="text-4xl font-bold">Privacy Policy Changes</h2>
             <p className="my-4 text-2xl">Although most changes are likely to be minor, GYBST may change this Privacy Policy from time to time, and in GYBST’s sole discretion. GYBST encourages users to frequently check this page for any changes to this Privacy Policy. Your continued use of this site after any change in this Privacy Policy will constitute your acceptance of such change.</p>
-            <p className="my-4 text-2xl"><i>This Privacy Policy was last updated on April 13, 2023.</i></p>
+            <p className="my-4 text-2xl"><i>This Privacy Policy was last updated on August 23, 2024.</i></p>
 
             <h2 id="contact-info" className="text-4xl font-bold">Contact Information</h2>
-            <p className="my-4 text-2xl">If you have any questions about this Privacy Policy, please contact Bobby Dingo via email at <LinkExternal className="break-all" href="mailto:bobbydingo@yahoo.com" title="Email Bobby Dingo at bobbydingo@yahoo.com">bobbydingo@yahoo.com</LinkExternal></p>
+            <p className="my-4 text-2xl">If you have any questions about this Privacy Policy, contact Allison Wonderland via email at <LinkExternal className="break-all" href="mailto:allisonwonderlandgybst@gmail.com" title="Email Allison Wonderland at AllisonWonderlandGYBST@gmail.com">AllisonWonderlandGYBST@gmail.com</LinkExternal></p>
           </section>
         </article>
       </main>
