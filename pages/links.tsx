@@ -20,7 +20,7 @@ const LinksPage: NextPage = () => {
             <div className="flex flex-col gap-0 text-center align-middle items-center justify-center">
               <LinkExternalButton href="https://venmo.com/code?user_id=4128008445101301726" title="Leave a Tip using Venmo" className="!px-20 !py-28 max-[434px]:!px-8 max-[434px]:!py-16 text-2xl">
                 <span className="flex flex-col text-center align-middle items-center justify-center gap-4">
-                  Leave a Tip using
+                  Click here to Tip us
                   <Image src={SiteURL + "/venmo.svg"} alt="Venmo" width={194} height={35} />
                   <em className="font-normal">@GYBST</em>
                 </span>
