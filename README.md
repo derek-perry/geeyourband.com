@@ -5,14 +5,14 @@ _[Website; NEXT.js; Tailwind CSS]_
 
 ---
 
-### Game Links
+### Links
 - **Band Website:** [GeeYourBand.com](https://GeeYourBand.com "Visit the band website for Gee, Your Band Smells Terrific (GYBST) at GeeYourBand.com")
 - **Band Website GitHub:** [github.com/derek-perry/geeyourband.com](https://github.com/derek-perry/geeyourband.com "Visit the GitHub for GeeYourBand.com at github.com/derek-perry/geeyourband.com")
 
 ---
 
 ### Website License Information
-**Copyright 2023 Gee, Your Band Smells Terrific _(GYBST)_ TM**
+**Copyright 2024 Gee, Your Band Smells Terrific _(GYBST)_ TM**
 **Some rights reserved.**
 Use of [the code for GYBST's website](https://github.com/derek-perry/geeyourband.com "Visit the GitHub for GeeYourBand.com at github.com/derek-perry/geeyourband.com") is licensed under the MIT License (see below).
 
